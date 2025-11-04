@@ -1,0 +1,9 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus, button:focus {
+  outline: 2px solid #f472b6;
+  outline-offset: 2px;
+}
