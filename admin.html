@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Rajputi Collections</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-pink-50">
+  <header class="bg-pink-300 text-center py-4 font-bold text-lg">
+    👑 Admin Dashboard
+  </header>
+
+  <main class="p-6">
+    <section class="bg-white p-4 rounded-xl shadow-md max-w-lg mx-auto">
+      <h2 class="text-lg font-semibold mb-3">Upload Product</h2>
+      <form id="uploadForm">
+        <input type="text" id="productName" placeholder="Product Name" class="border p-2 w-full mb-2 rounded">
+        <input type="file" id="productImage" class="border p-2 w-full mb-2 rounded">
+        <button type="submit" class="bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 w-full">Upload</button>
+      </form>
+      <p id="uploadMsg" class="text-green-600 mt-2 hidden">Uploaded Successfully!</p>
+    </section>
+  </main>
+
+  <footer class="text-center mt-10 text-sm text-gray-600">
+    © 2025 Admin Panel | <strong>Radha Pawar</strong>
+  </footer>
+
+  <script src="admin.js"></script>
+</body>
+</html>
